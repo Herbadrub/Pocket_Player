@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jurij.player.MainActivity" >
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_play_lists"
+        android:title="@string/action_play_lists"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_profile"
+        android:title="@string/action_profile"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_logout"
+        android:title="@string/action_logout"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+</menu>
