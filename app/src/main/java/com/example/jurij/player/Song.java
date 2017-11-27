@@ -9,6 +9,7 @@ public class Song {
     private String avtor;
     private String dolzina;
     private String zvrst;
+    private String path;
 
     public  Song(){
         this.naslov="null";
@@ -17,11 +18,20 @@ public class Song {
         this.zvrst="null";
     }
 
-    public Song(String Naslov, String Avtor, String Dolzina, String Zvrst) {
+    public Song(String Naslov, String Avtor, String Dolzina, String Zvrst, String pot) {
         this.naslov = Naslov;
         this.avtor = Avtor;
         this.zvrst = Zvrst;
         this.dolzina=Dolzina;
+        this.path=pot;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
     }
 
     public String getNaslov() {
